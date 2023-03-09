@@ -1,0 +1,94 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[francais]{babel}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{geometry}
+\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}
+
+% \usepackage{mathpazo} --> Police à utiliser lors de rapports plus sérieux
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}
+\rhead{}
+\chead{}
+\rfoot{\thepage}
+\lfoot{Martin Baumgaertner}
+\cfoot{}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\begin{document}
+\begin{titlepage}
+	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+	\center 
+	\textsc{\LARGE iut de colmar}\\[6.5cm] 
+	\textsc{\Large R4ROM19}\\[0.5cm] 
+	\textsc{\large Année 2022-23}\\[0.5cm]
+	\HRule\\[0.75cm]
+	{\huge\bfseries Outils DevOps}\\[0.4cm]
+	\HRule\\[1.5cm]
+	\textsc{\large martin baumgaertner}\\[6.5cm] 
+
+	\vfill\vfill\vfill
+	{\large\today} 
+	\vfill
+\end{titlepage}
+\newpage
+\tableofcontents
+\newpage
+\section{CM 1 - 9 mars 2023}
+\subsection{Introduction}
+Qu'est-ce que DevOps ? C'est un mélange entre une équipe de développement mais 
+aussi un Opérateur, qui va s'occuper de la mise en production. C'est pour 
+améliorer la qualité du code, la rapidité de mise en production et de livraison.\\ 
+
+\textbf{Les objectifs d'un DevOps :}\\
+\begin{itemize}
+    \item Améliorer la qualité du produit
+    \item Améliorer la rapidité de mise en production
+    \item Améliorer la rapidité de livraison
+    \item Réduire le coût grâce à l'automatisation
+    \item Améliorer la sécurité
+\end{itemize}
+
+\subsection{Les outils de conténérisation}
+\subsubsection{Docker}
+Docker est un outil de conténérisation. Il permet de créer des conteneurs qui
+sont des environnements isolés. Il permet de créer des environnements de
+développement, de test et de production.\\
+
+\textbf{Les avantages de Docker :}\\
+\begin{itemize}
+    \item Permet de créer des environnements de développement, de test et de production
+    \item Permet de créer des environnements isolés
+    \item Permet de créer des environnements légers
+    \item Permet de créer des environnements répliquables
+    \item Permet de créer des environnements scalables
+\end{itemize}
+
+\newpage
+\subsubsection{Kubernetes}
+Kubernetes est un outil de conténérisation. Il permet de créer des clusters
+de conteneurs. Il permet de créer des environnements de développement, de test
+et de production.\\
+
+\textbf{Les avantages de Kubernetes :}\\
+\begin{itemize}
+    \item Permet de créer des environnements de développement, de test et de production
+    \item Permet de créer des environnements isolés
+    \item Permet de créer des environnements légers
+    \item Permet de créer des environnements répliquables
+    \item Permet de créer des environnements scalables
+\end{itemize}
+
+\subsection{YAML}
+YAML est un langage de configuration. Il permet de décrire des objets. Il est
+utilisé pour décrire des conteneurs, des clusters, des déploiements, des
+services, des secrets, des configmaps, des volumes, des jobs, des cronjobs,
+etc.\\
+
+\end{document}
