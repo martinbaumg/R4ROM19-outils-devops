@@ -1,0 +1,13 @@
+---
+nom: R1
+interfaces:
+  nom: GigabitEthernet0/0
+  ip: 192.168.0.1
+  masque: 255.255.255.0
+  mac: AB:CD:EF:01:23:45
+bgp:
+  as: 65000
+  voisins:
+    nom: R2
+    ip: 192.168.0.2
+    as: 65001

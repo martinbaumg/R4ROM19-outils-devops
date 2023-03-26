@@ -1,0 +1,12 @@
+membres:
+nom: "Jean Dupont"
+age: 35
+adresse: 
+    numero: "123"
+    rue:  "rue de la Paix"
+    ville: "Paris"
+    pays: "France"
+langages:
+    - "Python"
+    - "Java"
+    - "Ruby"

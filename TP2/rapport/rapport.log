@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.2)  24 MAR 2023 15:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.2)  24 MAR 2023 15:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/martinbaumgaertner/R4ROM19-outils-devops/cours-tex/cours.tex
-(/Users/martinbaumgaertner/R4ROM19-outils-devops/cours-tex/cours.tex
+**/Users/martinbaumgaertner/R4ROM19-outils-devops/TP2/rapport/rapport.tex
+(/Users/martinbaumgaertner/R4ROM19-outils-devops/TP2/rapport/rapport.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -259,8 +259,8 @@ Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footer
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count291
 \l__pdf_internal_box=\box52
-) (./cours.aux)
-\openout1 = `cours.aux'.
+) (./rapport.aux)
+\openout1 = `rapport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
@@ -361,13 +361,13 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 24.
 LaTeX Info: Redefining \pageref on input line 24.
 LaTeX Info: Redefining \nameref on input line 24.
- (./cours.out) (./cours.out)
+ (./rapport.out) (./rapport.out)
 \@outlinefile=\write3
-\openout3 = `cours.out'.
+\openout3 = `rapport.out'.
 
  [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./cours.toc
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./rapport.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -376,7 +376,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
 )
 \tf@toc=\write4
-\openout4 = `cours.toc'.
+\openout4 = `rapport.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -384,57 +384,59 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.42 \newpage
               [1]
-Underfull \hbox (badness 10000) in paragraph at lines 45--48
+<img/ps-a.png, id=46, 962.59625pt x 65.24374pt>
+File: img/ps-a.png Graphic file (type png)
+<use img/ps-a.png>
+Package pdftex.def Info: img/ps-a.png  used on input line 53.
+(pdftex.def)             Requested size: 418.25368pt x 28.34793pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--57
 
  []
 
+<img/logs.png, id=48, 1444.39626pt x 213.79875pt>
+File: img/logs.png Graphic file (type png)
+<use img/logs.png>
+Package pdftex.def Info: img/logs.png  used on input line 61.
+(pdftex.def)             Requested size: 418.25368pt x 61.90869pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 58--65
 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 75--78
+<img/connexion.png, id=49, 574.145pt x 48.18pt>
+File: img/connexion.png Graphic file (type png)
+<use img/connexion.png>
+Package pdftex.def Info: img/connexion.png  used on input line 71.
+(pdftex.def)             Requested size: 418.25368pt x 35.09903pt.
+[2 <./img/ps-a.png> <./img/logs.png> <./img/connexion.png>]
+<img/bdd.png, id=62, 181.67876pt x 175.65625pt>
+File: img/bdd.png Graphic file (type png)
+<use img/bdd.png>
+Package pdftex.def Info: img/bdd.png  used on input line 80.
+(pdftex.def)             Requested size: 167.2989pt x 161.75847pt.
 
+Overfull \hbox (35.88536pt too wide) in paragraph at lines 87--89
+[]\T1/cmr/m/n/12 Je viens donc mo-di-fier mon fi-chier de confi-gu-ra-tion du do-cker \T1/cmr/bx/n/12 docker-compose.yaml\T1/cmr/m/n/12 .
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--93
-
- []
-
-[3] [4] (./cours.aux)
-Package rerunfilecheck Info: File `cours.out' has not changed.
-(rerunfilecheck)             Checksum: 813C7FC1020BA5689FC7F7EB3C83E87E;1129.
+[3 <./img/bdd.png>] (./rapport.aux)
+Package rerunfilecheck Info: File `rapport.out' has not changed.
+(rerunfilecheck)             Checksum: F8430A67CEAB9D57320AB545ABDB012A;906.
  ) 
 Here is how much of TeX's memory you used:
- 13337 strings out of 478268
- 214281 string characters out of 5846348
- 520158 words of memory out of 5000000
- 31393 multiletter control sequences out of 15000+600000
+ 13373 strings out of 478268
+ 214938 string characters out of 5846348
+ 520390 words of memory out of 5000000
+ 31422 multiletter control sequences out of 15000+600000
  480871 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,341b,426s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on cours.pdf (5 pages, 124124 bytes).
+ 60i,11n,63p,445b,426s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
+Output written on rapport.pdf (4 pages, 620277 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 84 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
