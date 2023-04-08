@@ -1,0 +1,17 @@
+FROM ubuntu
+
+# Set the maintainer of the image
+LABEL author="KARAPETYAN Mikhail BAUMGAERTNER Martin"
+
+
+RUN apt-get update
+RUN apt-get install -y apache2 && apt-get clean
+
+# Copy custom html file
+COPY index.html /var/www/html/
+
+# Expose port 80 for apache
+EXPOSE 80 
+
+# Set the default command to execute, in this case it will start apache
+CMD ["apachectl", "-D", "FOREGROUND"] 

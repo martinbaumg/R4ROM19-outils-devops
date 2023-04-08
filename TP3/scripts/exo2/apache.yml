@@ -1,0 +1,30 @@
+---
+- name: Update apt cache
+  apt:
+    update_cache: yes
+
+- name: Install Apache web server
+  apt:
+    name: apache2
+    state: present
+
+- name: Create custom html file
+  copy:
+    src: /home/parallels/Documents/Ancible/exercice2/custom_index.html
+    dest: /var/www/html/index.html
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Create custom Apache configuration file
+  copy:
+    src: /home/parallels/Documents/Ancible/exercice2/custom_apache.conf
+    dest: /etc/apache2/sites-available/custom_apache.conf
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Restart Apache
+  service:
+    name: apache2
+    state: restarted

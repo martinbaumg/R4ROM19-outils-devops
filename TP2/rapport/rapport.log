@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.2)  24 MAR 2023 15:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.2)  29 MAR 2023 09:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -384,7 +384,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.42 \newpage
               [1]
-<img/ps-a.png, id=46, 962.59625pt x 65.24374pt>
+<img/ps-a.png, id=126, 962.59625pt x 65.24374pt>
 File: img/ps-a.png Graphic file (type png)
 <use img/ps-a.png>
 Package pdftex.def Info: img/ps-a.png  used on input line 53.
@@ -394,7 +394,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--57
 
  []
 
-<img/logs.png, id=48, 1444.39626pt x 213.79875pt>
+<img/logs.png, id=128, 1444.39626pt x 213.79875pt>
 File: img/logs.png Graphic file (type png)
 <use img/logs.png>
 Package pdftex.def Info: img/logs.png  used on input line 61.
@@ -404,39 +404,139 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--65
 
  []
 
-<img/connexion.png, id=49, 574.145pt x 48.18pt>
+<img/connexion.png, id=129, 574.145pt x 48.18pt>
 File: img/connexion.png Graphic file (type png)
 <use img/connexion.png>
 Package pdftex.def Info: img/connexion.png  used on input line 71.
 (pdftex.def)             Requested size: 418.25368pt x 35.09903pt.
 [2 <./img/ps-a.png> <./img/logs.png> <./img/connexion.png>]
-<img/bdd.png, id=62, 181.67876pt x 175.65625pt>
+<img/bdd.png, id=142, 181.67876pt x 175.65625pt>
 File: img/bdd.png Graphic file (type png)
 <use img/bdd.png>
 Package pdftex.def Info: img/bdd.png  used on input line 80.
 (pdftex.def)             Requested size: 167.2989pt x 161.75847pt.
-
-Overfull \hbox (35.88536pt too wide) in paragraph at lines 87--89
+ [3 <./img/bdd.png>]
+Overfull \hbox (35.88536pt too wide) in paragraph at lines 88--90
 []\T1/cmr/m/n/12 Je viens donc mo-di-fier mon fi-chier de confi-gu-ra-tion du do-cker \T1/cmr/bx/n/12 docker-compose.yaml\T1/cmr/m/n/12 .
  []
 
-[3 <./img/bdd.png>] (./rapport.aux)
+<img/code.png, id=149, 1369.115pt x 1015.795pt>
+File: img/code.png Graphic file (type png)
+<use img/code.png>
+Package pdftex.def Info: img/code.png  used on input line 93.
+(pdftex.def)             Requested size: 418.25368pt x 310.32077pt.
+[4 <./img/code.png>]
+<img/psa.png, id=156, 675.52374pt x 38.1425pt>
+File: img/psa.png Graphic file (type png)
+<use img/psa.png>
+Package pdftex.def Info: img/psa.png  used on input line 113.
+(pdftex.def)             Requested size: 418.25368pt x 23.61667pt.
+<img/code1.png, id=157, 1369.115pt x 618.31pt>
+File: img/code1.png Graphic file (type png)
+<use img/code1.png>
+Package pdftex.def Info: img/code1.png  used on input line 124.
+(pdftex.def)             Requested size: 418.25368pt x 188.8909pt.
+ [5 <./img/psa.png> <./img/code1.png>]
+<img/vim.png, id=170, 50.1875pt x 175.65625pt>
+File: img/vim.png Graphic file (type png)
+<use img/vim.png>
+Package pdftex.def Info: img/vim.png  used on input line 137.
+(pdftex.def)             Requested size: 41.82791pt x 146.40842pt.
+<img/rep.png, id=171, 88.33pt x 77.28876pt>
+File: img/rep.png Graphic file (type png)
+<use img/rep.png>
+Package pdftex.def Info: img/rep.png  used on input line 143.
+(pdftex.def)             Requested size: 83.64944pt x 73.19392pt.
+ [6 <./img/vim.png> <./img/rep.png>]
+<img/code2.png, id=181, 1369.115pt x 546.04pt>
+File: img/code2.png Graphic file (type png)
+<use img/code2.png>
+Package pdftex.def Info: img/code2.png  used on input line 160.
+(pdftex.def)             Requested size: 418.25368pt x 166.81274pt.
+<img/vim1.png, id=182, 208.78pt x 24.09pt>
+File: img/vim1.png Graphic file (type png)
+<use img/vim1.png>
+Package pdftex.def Info: img/vim1.png  used on input line 168.
+(pdftex.def)             Requested size: 334.60422pt x 38.61348pt.
+<img/vim2.png, id=183, 281.05pt x 16.06pt>
+File: img/vim2.png Graphic file (type png)
+<use img/vim2.png>
+Package pdftex.def Info: img/vim2.png  used on input line 174.
+(pdftex.def)             Requested size: 334.60422pt x 19.12141pt.
+
+Overfull \hbox (7.18944pt too wide) in paragraph at lines 179--182
+\T1/cmr/m/n/12 sui-vante : \T1/cmr/bx/n/12 do-cker run -it -v /Users/martinbaumgaertner/R4ROM19-outils-
+ []
+
+[7 <./img/code2.png> <./img/vim1.png> <./img/vim2.png>]
+Overfull \hbox (40.89227pt too wide) in paragraph at lines 185--189
+\T1/cmr/bx/n/12 /Users/martinbaumgaertner/R4ROM19-outils-devops/TP2/docker/dockerfile
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--189
+
+ []
+
+
+Overfull \hbox (1.52002pt too wide) in paragraph at lines 190--192
+[]\T1/cmr/m/n/12 Puis, avec \T1/cmr/bx/n/12 1.0 \T1/cmr/m/n/12 : \T1/cmr/bx/n/12 do-cker build -t martinbaumg/martin-baumgaertner :1.0
+ []
+
+
+Overfull \hbox (52.51443pt too wide) in paragraph at lines 190--192
+\T1/cmr/bx/n/12 -f /Users/martinbaumgaertner/R4ROM19-outils-devops/TP2/docker/dockerfile
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
+
+ []
+
+<img/docker-hub.png, id=194, 1445.4pt x 827.09pt>
+File: img/docker-hub.png Graphic file (type png)
+<use img/docker-hub.png>
+Package pdftex.def Info: img/docker-hub.png  used on input line 202.
+(pdftex.def)             Requested size: 334.60422pt x 191.46349pt.
+[8 <./img/docker-hub.png>]
+<img/id1.png, id=201, 1007.765pt x 29.10875pt>
+File: img/id1.png Graphic file (type png)
+<use img/id1.png>
+Package pdftex.def Info: img/id1.png  used on input line 216.
+(pdftex.def)             Requested size: 418.25368pt x 12.08078pt.
+<img/id2.png, id=202, 187.70125pt x 17.06375pt>
+File: img/id2.png Graphic file (type png)
+<use img/id2.png>
+Package pdftex.def Info: img/id2.png  used on input line 222.
+(pdftex.def)             Requested size: 418.25368pt x 38.02565pt.
+<img/page.png, id=203, 1557.82pt x 1015.795pt>
+File: img/page.png Graphic file (type png)
+<use img/page.png>
+Package pdftex.def Info: img/page.png  used on input line 231.
+(pdftex.def)             Requested size: 334.60422pt x 218.17467pt.
+ [9 <./img/id1.png> <./img/id2.png> <./img/page.png>]
+<img/script-f.png, id=214, 1351.0475pt x 1413.28pt>
+File: img/script-f.png Graphic file (type png)
+<use img/script-f.png>
+Package pdftex.def Info: img/script-f.png  used on input line 241.
+(pdftex.def)             Requested size: 376.42575pt x 393.7533pt.
+ [10 <./img/script-f.png>] (./rapport.aux)
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: F8430A67CEAB9D57320AB545ABDB012A;906.
+(rerunfilecheck)             Checksum: C14E20A557AF81357BC63DB2E1634532;3680.
  ) 
 Here is how much of TeX's memory you used:
- 13373 strings out of 478268
- 214938 string characters out of 5846348
- 520390 words of memory out of 5000000
- 31422 multiletter control sequences out of 15000+600000
+ 13790 strings out of 478268
+ 219388 string characters out of 5846348
+ 523963 words of memory out of 5000000
+ 31789 multiletter control sequences out of 15000+600000
  480871 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,445b,426s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,11n,63p,446b,980s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on rapport.pdf (4 pages, 620277 bytes).
+Output written on rapport.pdf (11 pages, 1563525 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 280 PDF objects out of 1000 (max. 8388607)
+ 210 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 

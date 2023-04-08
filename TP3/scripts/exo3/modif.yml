@@ -1,0 +1,8 @@
+  - name: 'stop docker container'
+      shell: docker stop myapache_mbmk
+
+    - name: 'remove docker container'
+      shell: docker rm myapache_mbmk
+
+    - name: 'remove docker image'
+      shell: docker rmi myapache_mbmk

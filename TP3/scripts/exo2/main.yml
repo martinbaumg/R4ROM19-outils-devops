@@ -1,0 +1,67 @@
+---
+- name: Update apt packages
+  apt:
+    update_cache: yes
+  become: yes
+
+- name: Install MySQL server
+  apt:
+    name: default-mysql-server
+    state: present
+  become: yes
+
+- name: Install PyMySQL
+  apt:
+    name: python3-pymysql
+    state: present
+  become: yes
+
+- name: Copy custom MySQL configuration file
+  copy:
+    src: /home/parallels/Documents/Ancible/exercice2/roles/mysql/files/my.cnf
+    dest: /etc/mysql/my.cnf
+
+- name: Copy custom MySQL configuration file
+  copy:
+    src: /home/parallels/Documents/Ancible/exercice2/roles/mysql/files/my.cnf
+    dest: /root/.my.cnf
+
+- name: Secure MySQL installation
+  mysql_secure_installation:
+    login_user: root
+    login_password: weglinpe
+    validate_password: yes
+    change_root_password: yes
+    root_password: weglinpe
+    remove_anonymous_users: yes
+    disallow_root_login_remote: no
+    remove_test_database: yes
+    state: present
+
+- name: Restart MySQL service
+  systemd:
+    name: mysql
+    state: restarted
+  become: yes
+
+- name: Create database
+  mysql_db:
+    name: mydatabase
+    login_user: root
+    login_password: weglinpe
+    state: present
+
+- name: Create User karapuce
+  mysql_user:
+    name: karapuce
+    password: karapuce
+    priv: "*.*:ALL,GRANT"
+    login_user: root
+    login_password: weglinpe
+    state: present
+
+- name: Ensure MySQL service is running
+  systemd:
+    name: mysql
+    state: started
+    enabled: yes

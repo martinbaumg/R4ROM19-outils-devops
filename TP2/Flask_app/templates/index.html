@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Flask app</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body> <h1>Bienvenu sur le conteneur de Martin Baumgaertner</h1>
+<p>Voici la liste des fichiers présents dans le conteneur :</p>
+<ul>
+{% for file in files %}
+<li><a href="/{{ file }}">{{ file }}</a></li>
+{% endfor %}
+</ul>
+<p>Vous êtes connectés depuis l'adresse :  {{request.remote_addr}}</p>
+</body>
+</html>

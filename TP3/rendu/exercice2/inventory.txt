@@ -1,0 +1,5 @@
+[webservers]
+web ansible_host=10.211.55.4 ansible_user=parallels ansible_password=weglinpe
+
+[dbservers]
+db ansible_host=10.211.55.4 ansible_user=parallels ansible_password=weglinpe

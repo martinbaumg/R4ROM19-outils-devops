@@ -1,0 +1,23 @@
+- hosts: web
+  become: yes
+  tasks:
+    - name: 'apt-get update'
+      apt:
+        update_cache: yes
+        cache_valid_time: 3600
+
+    - name: 'install nginx'
+      apt:
+        name: ['nginx']
+        state: latest
+
+    - name: 'start nginx'
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+    - name: 'copy index.html'
+      copy:
+        src: /home/parallels/Documents/Ancible/index.html
+        dest: /var/www/html/index.html

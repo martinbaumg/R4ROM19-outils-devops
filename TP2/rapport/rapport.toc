@@ -3,4 +3,20 @@
 \contentsline {subsection}{\numberline {1.1}Première configuration}{2}{subsection.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.1}Question 2-3-4}{2}{subsubsection.1.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.2}Question 5}{2}{subsubsection.1.1.2}%
-\contentsline {subsubsection}{\numberline {1.1.3}Question 1-2}{3}{subsubsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.2}Configuration de services interconnectés}{4}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Question 1-2}{4}{subsubsection.1.2.1}%
+\contentsline {section}{\numberline {2}Réaliser et publier son image Docker}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Créer un fichier Dockerfile}{5}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Question a}{5}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Question b}{5}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Question c}{6}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}Dockerfile - un peu plus loin}{6}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Question a}{6}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Question b}{6}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Question c}{7}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Question d}{7}{subsubsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.3}Publier son image sur un registry privé}{8}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Question a-b-c}{8}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Question d-e}{8}{subsubsection.2.3.2}%
+\contentsline {section}{\numberline {3}Script bash pour créer et éxecuter un conteneur Docker}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Le script}{10}{subsection.3.1}%
